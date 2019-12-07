@@ -1,5 +1,6 @@
+
 .fondo{
-    display: flex;
+    display: grid;
     width: 100vw;
     height: 100vh;
     justify-content: center;
@@ -18,22 +19,33 @@ h5{
     align-content: center;
 }
 
+.atras{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 660px;
+    background-color: #383837;
+    border-radius: 35px;
+}
+
 .calculadora{
     display: grid;
     grid-template-rows: 8% 25% auto;
     width: 350px;
-    height: 550px;
+    height: 600px;
     background-color: #f5f6fa;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 35px;
+    box-shadow: 0px 0px 12px 3px rgba(228, 224, 224, 0.1);
 }
 
 .calculadora-encabezado{
-    background-color:#718093;
+    background-color:#57606f;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .calculadora-cuerpo{
-    background-color: #f5f6fa;
+    background-color: #c9c6c8;
 }
 
 .calculadora-pie{
@@ -44,8 +56,9 @@ h5{
     grid-row-gap: 10px;
     padding: 10px 10px 10px 10px;
     justify-content: space-around;
-    background-color: #718093 ;
+    background-color: #57606f ;
     transition: 0.4s all ;
+    border-radius: 0px 0px 20px 20px;
 }
 
 .calculadora-pie div{
